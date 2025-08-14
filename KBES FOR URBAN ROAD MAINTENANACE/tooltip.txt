@@ -1,0 +1,1003 @@
+
+Single Distress Mode
+Input_Field - Distress_Type (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - All(#same for all distress)
+Description - Type of pavement distress observed on the road.
+Guidance_for_User - Select the distress based on field observation or photo.
+Tooltip - Select the type of visible road damage.
+
+Input_Field - Severity
+Distress_Type - Pothole
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Distress_Type - Pothole
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Pothole
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Alligator Cracking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Alligator Cracking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Alligator Cracking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Rutting
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Rutting
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Rutting
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Patching
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Patching
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Edge Breaking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Edge Breaking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Edge Breaking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Corrugation
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Corrugation
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Distress_Type - Corrugation
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Traffic_Type (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Level - Commercial (#same for all distress)
+Description - Type of traffic load on the road section.
+Guidance_for_User - Select based on road category or traffic count. Urban roads = Commercial, Residential = Non-Commercial.
+Tooltip - Type of traffic using the road.
+
+Input_Field - Traffic_Type  (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - Non Commercial (#same for all distress)
+Description - Type of traffic load on the road section.
+Guidance_for_User - Select based on road category or traffic count. Urban roads = Commercial, Residential = Non-Commercial.
+Tooltip - Type of traffic using the road.
+
+Input_Field - Budget_Level (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - HIGH (#same for all distress)
+Description - Available funds for the repair work.
+Guidance_for_User - Estimate based on project funding. High = Sufficient Funds, Low = Limited Funds
+Tooltip - Select budget level available.
+
+Input_Field - Budget_Level (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Level - LOW (#same for all distress)
+Description - Available funds for the repair work.
+Guidance_for_User - Estimate based on project funding. High = Sufficient Funds, Low = Limited Funds
+Tooltip - Select budget level available.
+
+Input_Field - Material_Available (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - YES (#same for all distress)
+Description - Availability of key repair materials
+Guidance_for_User - Check local stores or depots. Select YES if any suitable material is on hand.
+Tooltip - Is essential repair material available locally?
+
+Input_Field - Material_Available (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - NO (#same for all distress)
+Description - Availability of key repair materials
+Guidance_for_User - Check local stores or depots. Select YES if any suitable material is on hand.
+Tooltip - Is essential repair material available locally?
+
+Input_Field - Time_Limit (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - FLEXIBLE (#same for all distress)
+Description - Time urgency for executing the repair.
+Guidance_for_User - Choose URGENT for Time Available Less, FLEXIBLE for Time Available More.
+Tooltip - Select repair time window.
+
+Input_Field - Time_Limit (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - URGENT (#same for all distress)
+Description - Time urgency for executing the repair.
+Guidance_for_User - Choose URGENT for Time Available Less, FLEXIBLE for Time Available More.
+Tooltip - Select repair time window.
+
+Input_Field - Extent_of_Distress (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - ISOLATED (#same for all distress)
+Description - Extent or distribution of damage area.
+Guidance_for_User - ISOLATED if distress is spot damage, SERIES if distress repeats along a stretch.
+Tooltip - Extent of the damaged area.
+
+Input_Field - Extent_of_Distress (#same for all distress)
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - SERIES (#same for all distress)
+Description - Extent or distribution of damage area.
+Guidance_for_User - ISOLATED if distress is spot damage, SERIES if distress repeats along a stretch.
+Tooltip - Extent of the damaged area.
+
+
+
+
+
+
+
+
+
+Multiple Distress Mode
+Input_Field - Major_Distress_Type 
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - All(#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Type of pavement distress observed on the road.
+Guidance_for_User - Select the distress based on field observation or photo.
+Tooltip - Select the type of visible road damage.
+
+Input_Field - Minor_Distress_Type 
+Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation
+Level - All(#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Type of pavement distress observed on the road.
+Guidance_for_User - Select the distress based on field observation or photo.
+Tooltip - Select the type of visible road damage.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Alligator Cracking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Rutting
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Edge Breaking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Corrugation
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Alligator Cracking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Rutting
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Patching
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Edge Breaking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Corrugation
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Alligator Cracking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Rutting
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Patching
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Edge Breaking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Pothole  
+Minor_Distress_Type - Corrugation
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking 
+Minor_Distress_Type - Pothole
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Rutting
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm. & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm. & Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Edge Breaking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm. & Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Corrugation
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Pothole
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Rutting
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm. & Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Patching
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm. & Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Edge Breaking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm. & Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Corrugation
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Pothole
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Rutting
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm. & Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Patching
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm. & Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Edge Breaking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm. & Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Alligator Cracking  
+Minor_Distress_Type - Corrugation
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting 
+Minor_Distress_Type - Pothole
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Alligator Cracking 
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm. & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, More than 10 mm deep. & Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Edge Breaking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, More than 10 mm deep. & Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Corrugation
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, More than 10 mm deep. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Alligator Cracking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Between 4-10 mm deep. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Pothole
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Patching
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Between 4-10 mm deep. & Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Edge Breaking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Between 4-10 mm deep. & Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Corrugation
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Between 4-10 mm deep. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting 
+Minor_Distress_Type - Alligator Cracking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Less than 4 mm deep. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Rutting 
+Minor_Distress_Type - Pothole
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Rutting 
+Minor_Distress_Type - Patching
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Less than 4 mm deep. & Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Edge Breaking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Less than 4 mm deep. & Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Rutting  
+Minor_Distress_Type - Corrugation
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Rutting is, Less than 4 mm deep. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Alligator Cracking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length). & Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Rutting
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length). & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length). & Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Pothole
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Corrugation
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length). & Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Alligator Cracking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length) & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Rutting
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length) & Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Patching
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length) & Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Pothole
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Corrugation
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length) & Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Alligator Cracking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Rutting
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material. & Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Patching
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material. & Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Pothole
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Edge Breaking  
+Minor_Distress_Type - Corrugation
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Alligator Cracking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm. & Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Rutting
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm. & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Pothole 
+Minor_Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Edge Breaking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm. & Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Corrugation
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Alligator Cracking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Rutting
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm. & Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Pothole
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Edge Breaking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm. & Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Corrugation
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Alligator Cracking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Rutting
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm. & Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Pothole
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Edge Breaking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm. & Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Patching  
+Minor_Distress_Type - Corrugation
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Alligator Cracking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm. & Choose based on how deep/wide the Alligator Cracking is, The width and depth in this case may be more than 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Rutting
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm. & Choose based on how deep/wide the Rutting is, More than 10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Patching
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm. & Choose based on how deep/wide the Patching is, Rut Depth >13 mm, Edge Separation >25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Edge Breaking
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm. & Choose based on how deep/wide the Edge Breaking is, High severity is with considerable breakup and loss of material (more than 10% of the affected length).
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Pothole
+Level - HIGH
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, greater than 50 mm deep and 500 mm wide. & Choose based on how deep/wide the Corrugation is, Wavelength (mm) <300 mm, Depth (mm) >13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Alligator Cracking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks lies between 3 to 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Corrugation 
+Minor_Distress_Type - Rutting
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm. & Choose based on how deep/wide the Rutting is, Between 4-10 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Patching
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm. & Choose based on how deep/wide the Patching is, Rut Depth 6-13 mm, Edge Separation 10-25 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Edge Breaking
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm. & Choose based on how deep/wide the Edge Breaking is, Medium severity is with some breakup and loss of material (up to 10% of the affected length)
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Pothole
+Level - MEDIUM
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 to 50 mm deep and 200 to 500 mm wide & Choose based on how deep/wide the Corrugation is, Wavelength (mm) 300-750 mm, Depth (mm) 6-13 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Alligator Cracking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm. & Choose based on how deep/wide the Alligator Cracking is, The depth and width of such cracks is in the range of 1 to 3 mm.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Rutting
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm. & Choose based on how deep/wide the Rutting is, Less than 4 mm deep.
+Tooltip - Select severity level: Low, Medium or High.
+ 
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Patching
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm. & Choose based on how deep/wide the Patching is, Rut Depth <6 mm, Edge Separation < 10 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Edge Breaking
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm. & Choose based on how deep/wide the Edge Breaking is, Low severity is with no breakup or loss of material.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Severity
+Major_Distress_Type - Corrugation  
+Minor_Distress_Type - Pothole
+Level - LOW
+Description - Level of intensity of the distress.
+Guidance_for_User - Choose based on how deep/wide the Pothole is, 25 mm deep and 200 mm wide & Choose based on how deep/wide the Corrugation is, Wavelength (mm) >750 mm, Depth (mm) < 6 mm.
+Tooltip - Select severity level: Low, Medium or High.
+
+Input_Field - Traffic_Type (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Level - Commercial (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Type of traffic load on the road section.
+Guidance_for_User - Select based on road category or traffic count. Urban roads = Commercial, Residential = Non-Commercial.
+Tooltip - Type of traffic using the road.
+
+Input_Field - Traffic_Type  (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Level - Non Commercial (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Type of traffic load on the road section.
+Guidance_for_User - Select based on road category or traffic count. Urban roads = Commercial, Residential = Non-Commercial.
+Tooltip - Type of traffic using the road.
+
+Input_Field - Budget_Level (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Level - HIGH (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Available funds for the repair work.
+Guidance_for_User - Estimate based on project funding. High = Sufficient Funds, Low = Limited Funds
+Tooltip - Select budget level available.
+
+Input_Field - Budget_Level (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Level - LOW (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Available funds for the repair work.
+Guidance_for_User - Estimate based on project funding. High = Sufficient Funds, Low = Limited Funds
+Tooltip - Select budget level available.
+
+Input_Field - Material_Available (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation 
+Level - YES (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Availability of key repair materials
+Guidance_for_User - Check local stores or depots. Select YES if any suitable material is on hand.
+Tooltip - Is essential repair material available locally?
+
+Input_Field - Time_Limit (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation 
+Level - FLEXIBLE (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Time urgency for executing the repair.
+Guidance_for_User - Choose URGENT for Time Available Less, FLEXIBLE for Time Available More.
+Tooltip - Select repair time window.
+
+Input_Field - Extent_of_Distress (#For both Major_Distress_Type and Minor_Distress_Type)
+Major_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation  
+Minor_Distress_Type - Pothole/Alligator Cracking/Rutting/Patching/Edge Breaking/Corrugation 
+Level - SERIES (#For both Major_Distress_Type and Minor_Distress_Type)
+Description - Extent or distribution of damage area.
+Guidance_for_User - ISOLATED if distress is spot damage, SERIES if distress repeats along a stretch.
+Tooltip - Extent of the damaged area.
+

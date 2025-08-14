@@ -159,7 +159,23 @@ def get_multi_tooltip(field, major, minor, level):
 
     return try_keys((field.upper(), major, minor, level))
 
+# Font config
+FONT_NAME = "NotoSans"
+font_available = False
 
+# Build font path (works in local and deployed environments)
+FONT_PATH = os.path.join(os.path.dirname(__file__), "fonts", "NotoSans-Regular.ttf")
+FONT_BOLD_PATH = os.path.join(os.path.dirname(__file__), "fonts", "NotoSans-Bold.ttf")
+
+try:
+    if os.path.exists(FONT_PATH):
+        pdfmetrics.registerFont(TTFont(FONT_NAME, FONT_PATH))
+        font_available = True
+    if os.path.exists(FONT_BOLD_PATH):
+        pdfmetrics.registerFont(TTFont(FONT_NAME + "-Bold", FONT_BOLD_PATH))
+except Exception as e:
+    print(f"⚠ Could not register font: {e}")
+    
 # ----------------- PDF GENERATION (clean layout) -----------------
 def make_paragraph_style(name="NotoSans", fontsize=12, leading=14, font_name_override=None):
     base = getSampleStyleSheet()["Normal"]
