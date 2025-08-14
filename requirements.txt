@@ -4,3 +4,4 @@ PyYAML
 streamlit-authenticator
 reportlab
 openpyxl
+reportlab>=4.0.0
