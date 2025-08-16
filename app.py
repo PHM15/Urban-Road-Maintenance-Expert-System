@@ -7,38 +7,18 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
-st.set_page_config(
-    page_title="Urban Road Maintenance Expert System",
-    page_icon="🛠️",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
-# --------------------------------------------------
-# MOBILE-FRIENDLY CSS
-# --------------------------------------------------
-st.markdown("""
-<style>
-/* Make helper/tooltip text always visible */
-div[data-testid="stTooltipHoverTarget"] {
-    color: black !important;
-    opacity: 1 !important;
-    font-weight: 400 !important;
-}
-
-/* Force all headings to be black */
-h1, h2, h3 {
-    color: black !important;
-}
-
-/* Adjust visibility specifically for mobile */
-@media (max-width: 768px) {
-    div[data-testid="stTooltipHoverTarget"] {
-        font-size: 0.9rem !important;
-        color: black !important;
-        opacity: 1 !important;
+st.markdown(
+    """
+    <style>
+    /* Make ALL widget labels bold and bigger */
+    div[data-testid$="-label"] {
+        font-weight: bold !important;
+        font-size: 18px !important;
     }
-    h1, h2, h3 {
+
+    /* Make section headings larger and bold */
+    h3, h4 {
+        font-weight: bold !important;
         color: black !important;
     }
     </style>
