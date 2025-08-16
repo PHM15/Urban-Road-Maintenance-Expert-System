@@ -7,6 +7,9 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
+import streamlit as st
+
+# Page config (only ONCE)
 st.set_page_config(
     page_title="Urban Road Maintenance Expert System",
     page_icon="🛠️",
