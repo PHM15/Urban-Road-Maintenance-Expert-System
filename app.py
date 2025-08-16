@@ -7,6 +7,9 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
+# Page config must be set before other streamlit UI
+st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wide")
+
 st.markdown(
     """
     <style>
@@ -46,9 +49,6 @@ EXCEL_FILE = "RULES_FINAL.xlsx"
 FONT_FOLDER = Path("fonts")
 NOTO_TTF = FONT_FOLDER / "NotoSans-Regular.ttf"
 PAGE_SIZE = A4
-
-# Page config must be set before other streamlit UI
-st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wide")
 
 # ----------------- FONT REGISTRATION -----------------
 FONT_NAME = "NotoSans"
