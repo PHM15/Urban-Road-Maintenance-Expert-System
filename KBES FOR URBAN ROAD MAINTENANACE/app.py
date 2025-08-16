@@ -7,24 +7,43 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
-st.markdown(
-    """
-    <style>
-    /* Make ALL widget labels bold and bigger */
-    div[data-testid$="-label"] {
-        font-weight: bold !important;
-        font-size: 18px !important;
-    }
+st.set_page_config(
+    page_title="Urban Road Maintenance Expert System",
+    page_icon="🛠️",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
-    /* Make section headings larger and bold */
-    h3, h4 {
-        font-weight: bold !important;
+# --------------------------------------------------
+# MOBILE-FRIENDLY CSS
+# --------------------------------------------------
+st.markdown("""
+<style>
+/* Make helper/tooltip text always visible */
+div[data-testid="stTooltipHoverTarget"] {
+    color: black !important;
+    opacity: 1 !important;
+    font-weight: 400 !important;
+}
+
+/* Force all headings to be black */
+h1, h2, h3 {
+    color: black !important;
+}
+
+/* Adjust visibility specifically for mobile */
+@media (max-width: 768px) {
+    div[data-testid="stTooltipHoverTarget"] {
+        font-size: 0.9rem !important;
+        color: black !important;
+        opacity: 1 !important;
+    }
+    h1, h2, h3 {
         color: black !important;
     }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ReportLab (for nicer PDF formatting)
 from reportlab.lib.pagesizes import A4
@@ -46,9 +65,6 @@ EXCEL_FILE = "RULES_FINAL.xlsx"
 FONT_FOLDER = Path("fonts")
 NOTO_TTF = FONT_FOLDER / "NotoSans-Regular.ttf"
 PAGE_SIZE = A4
-
-# Page config must be set before other streamlit UI
-st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wide")
 
 # ----------------- FONT REGISTRATION -----------------
 FONT_NAME = "NotoSans"
@@ -353,7 +369,7 @@ def main():
         st.error(str(e))
         st.stop()
 
-    tab1, tab2 = st.tabs(["🚧 Single Distress Mode", "🔸 Multiple Distress Mode"])
+    tab1, tab2 = st.tabs(["🚧 Single Distress Mode", "🚧 Multiple Distress Mode"])
 
     # -------- SINGLE MODE --------
     with tab1:
