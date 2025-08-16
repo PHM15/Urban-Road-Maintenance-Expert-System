@@ -14,12 +14,13 @@ st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wi
 st.markdown(
     """
     <style>
-    [data-testid="stToolbar"] {visibility: hidden;}
-    [data-testid="stDecoration"] {visibility: hidden;}
-    [data-testid="stStatusWidget"] {visibility: hidden;}
-    #MainMenu {visibility: hidden;}
-    header {visibility: hidden;}
-    footer {visibility: hidden;}
+    h1, h2, h3, h4, h5, h6 {
+        color: black !important;
+    }
+    div[data-testid$="-label"] {
+        color: black !important;
+        font-weight: bold !important;
+    }
     </style>
     """,
     unsafe_allow_html=True
