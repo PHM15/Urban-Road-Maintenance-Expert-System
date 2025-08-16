@@ -10,19 +10,16 @@ from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
 # Page config must be set before other streamlit UI
 st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wide")
 
+# Force headings black
 st.markdown(
     """
     <style>
-    /* Make ALL widget labels bold and bigger */
-    div[data-testid$="-label"] {
-        font-weight: bold !important;
-        font-size: 18px !important;
-    }
-
-    /* Make section headings larger and bold */
-    h3, h4 {
-        font-weight: bold !important;
+    h1, h2, h3, h4, h5, h6 {
         color: black !important;
+    }
+    div[data-testid$="-label"] {
+        color: black !important;
+        font-weight: bold !important;
     }
     </style>
     """,
