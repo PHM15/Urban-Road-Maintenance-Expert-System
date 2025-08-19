@@ -332,7 +332,7 @@ def main():
         st.markdown(
     "<h4 style='text-align: left; color: black; font-weight: normal;'>From Distress to Durable.</h4>",
     unsafe_allow_html=True
-)
+        )
         st.markdown(
             """
         - Use **Single Mode** if only one distress is visible.
