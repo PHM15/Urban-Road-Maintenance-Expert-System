@@ -330,6 +330,10 @@ def main():
     # User manual expander
     with st.expander("📘 User Manual"):
         st.markdown(
+    "<h4 style='text-align: left; color: black; font-weight: normal;'>From Distress to Durable.</h4>",
+    unsafe_allow_html=True
+)
+        st.markdown(
             """
         - Use **Single Mode** if only one distress is visible.
         - Use **Multiple Mode** if road shows more than one distress type.
