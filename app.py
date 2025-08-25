@@ -10,6 +10,13 @@ from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
 # Page config must be set before other streamlit UI
 st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wide")
 
+# External video (YouTube)
+video_url = "https://youtu.be/bTLjaZDj3S8"
+
+st.subheader("📺 User Guide Video")
+st.write("Watch this video for a complete walkthrough of the application features.")
+st.video(video_url)
+
 # Force headings black
 st.markdown(
     """
