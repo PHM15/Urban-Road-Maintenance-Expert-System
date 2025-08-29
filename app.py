@@ -11,7 +11,7 @@ from tooltip_data import SINGLE_TOOLTIP, MULTI_TOOLTIP
 st.set_page_config(page_title="Urban Road Maintenance Expert System", layout="wide")
 
 # External video (YouTube)
-video_url = "https://youtu.be/bTLjaZDj3S8"
+video_url = "https://youtu.be/os02MikpjyE"
 
 st.subheader("📺 User Guide Video")
 st.write("Watch this video for a complete walkthrough of the application features.")
